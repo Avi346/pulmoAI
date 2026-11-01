@@ -1,0 +1,21 @@
+# Vision
+torch
+torchvision
+Pillow
+matplotlib
+scikit-learn
+scikit-image
+
+# RAG
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-mistralai
+python-dotenv
+pypdf
+chromadb
+sentence-transformers
+
+# Frontend
+streamlit

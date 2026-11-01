@@ -1,0 +1,34 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.codex/
+.agents/
+kaggle.json
+*.pem
+*.key
+
+# Downloaded datasets and generated runtime files
+/data/*
+!/data/guidelines/
+/vectorstore/
+/scratch/
+*.zip
+*.log
+
+# Operating system files
+.DS_Store
+__MACOSX/
+Thumbs.db
